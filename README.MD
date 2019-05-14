@@ -1,10 +1,12 @@
 ## web-es6-webapck
 
 **背景**
+
 浏览器是不支持commonjs中的require/module.export语法的，更别提目前很流行的es6中export/import语法。那么如果我们写了一些
 高级语法 如面向对象，async，await，const语法时，如何在浏览器中运行呢。
 
 **做法**
+
 1. babel工具
     * 将高级语法转为(稳定的、低版本语法)es5语法(基本es6之前的语法统称为es5)
     * babel就是这样的一个工具，提供了许多转码器presents
